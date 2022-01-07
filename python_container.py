@@ -19,4 +19,8 @@ home_town = {
     'state': 'Indiana',
     'population': 102037 
 }
-print(f"I was born in {home_town['city']}, {home_town['state']} - population of {home_town['population']}")
+#print(f"I was born in {home_town['city']}, {home_town['state']} - population of {home_town['population']}")
+
+# Exercise 5
+for key in home_town:
+    print(f'{key} = {home_town[key]}')
