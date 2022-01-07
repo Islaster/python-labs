@@ -26,12 +26,20 @@ foods = ('pizza', 'apples', 'sushi', 'tacos', 'burgers', 'pasta')
 #    print(f'{key} = {home_town[key]}')
 
 # Exercise 6
-cohort = []
+#cohort = []
+#for student in students:
+#    i = students.index(student)
+#    cohort.append({
+#        'student': student,
+#        'fav_food': foods[i]
+#    })
+#for c in cohort:
+#    print(c)
+
+# Exercise 7
+awesome_students = []
 for student in students:
-    i = students.index(student)
-    cohort.append({
-        'student': student,
-        'fav_food': foods[i]
-    })
-for c in cohort:
-    print(c)
+    awesome_students.append(f'{student} is awesome!')
+
+for awe_stu in awesome_students:
+    print(awe_stu)
