@@ -5,5 +5,6 @@ print(students[len(students)-1])
 
 
 # Exercise 2
-
-# your solution here
+foods = ('pizza', 'apples', 'sushi', 'tacos', 'burgers', 'pasta')
+for food in foods:
+    print(f'{food} is a good food')
