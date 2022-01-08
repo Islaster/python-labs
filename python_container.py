@@ -37,9 +37,14 @@ foods = ('pizza', 'apples', 'sushi', 'tacos', 'burgers', 'pasta')
 #    print(c)
 
 # Exercise 7
-awesome_students = []
-for student in students:
-    awesome_students.append(f'{student} is awesome!')
+#awesome_students = []
+#for student in students:
+#    awesome_students.append(f'{student} is awesome!')
+#
+#for awe_stu in awesome_students:
+#    print(awe_stu)
 
-for awe_stu in awesome_students:
-    print(awe_stu)
+# Exercise 8
+for food in foods:
+   if food.find('a') > 0:
+       print(food)
